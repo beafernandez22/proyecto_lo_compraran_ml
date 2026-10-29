@@ -78,10 +78,18 @@ Iniciar la aplicación:
 python -m streamlit run app.py
 ```
 
-**Archivos principales:**
+## 📁 Estructura del proyecto
 
-- `proyecto_lo_compraran_ml.ipynb` — análisis y entrenamiento.
-- `funciones.py` — funciones reutilizables.
-- `app.py` — presentación y predicción interactiva.
-- `modelo_compra.pkl` — modelo entrenado.
-- `requirements.txt` — dependencias.
+proyecto_lo_compraran_ml/
+├── data/
+│   └── online_shoppers_intention.csv
+├── notebooks/
+│   └── proyecto_lo_compraran_ml.ipynb
+├── scripts/
+│   └── funciones.py
+├── outputs/
+│   └── modelo_compra.pkl
+├── app.py
+├── requirements.txt
+├── README.md
+└── .gitignore

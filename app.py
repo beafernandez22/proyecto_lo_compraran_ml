@@ -560,7 +560,7 @@ if seccion == "🛒 Predicción interactiva":
 
     @st.cache_resource
     def cargar_modelo():
-        return joblib.load("modelo_compra.pkl")
+        return joblib.load("outputs/modelo_compra.pkl")
 
     try:
         modelo = cargar_modelo()

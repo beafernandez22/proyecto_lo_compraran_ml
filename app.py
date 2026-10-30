@@ -74,7 +74,7 @@ elif seccion == "📊 Análisis exploratorio":
 
         @st.cache_data
         def cargar_datos():
-            return pd.read_csv("online_shoppers_intention.csv")
+            return pd.read_csv("data/online_shoppers_intention.csv")
 
         df = cargar_datos()
 
